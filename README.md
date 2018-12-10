@@ -1,6 +1,6 @@
 <h1>Ceres_pose_graph_2d_optimization_r0</h1>
 <br>
-<strong> Steps instructions: </strong>
+<h2><strong> Steps instructions: </strong></h2>
 <br>
 <strong> Step 1: </strong>
 <br> Compile Ceres optimization library in Visual studio.
@@ -13,7 +13,7 @@ https://www.boost.org/doc/libs/1_61_0/libs/algorithm/doc/html/index.html <br>
 <strong>Step 4: </strong>
 <br> Output is the file <i>"optimized_nodes.txt" </i> and <i>"optimized_edges.txt"</i>
 Execute python script: <i>"plot_results.py"</i> with the command as below: <br>
-plot_results.py --initial_poses optimized_nodes.txt --optimized_poses optimized_edges.txt
+<strong>plot_results.py --initial_poses optimized_nodes.txt --optimized_poses optimized_edges.txt</strong>
 <br>
 If you need any futher information or discussion, please send me an email: vanhuong.robotics@gmail.com </br>
 
